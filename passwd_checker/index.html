@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Checker</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body class="bg-dark">
+    <div class="bg-secondary rounded text-white mt-5 ms-5 me-5 p-5">
+        <h1><strong>Password Checker</strong></h1>
+        <ul>
+            <li id="minChar" class="text-danger">8 caractère minimum</li>
+            <li id="minNumber" class="text-danger">2 chiffre minimum</li>
+            <li id="minMaj" class="text-danger">1 lettre majuscule minimum</li>
+            <li id="minSpecialChar" class="text-danger">1 caractère spécial minimum</li>
+        </ul>
+        <div class="mt-5 ms-5 me-5">
+            <label class="form-label h4"><strong>Password*</strong></label>
+            <input id="passwordInput" type="password" class="form-control" placeholder="Enter your password...">
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
