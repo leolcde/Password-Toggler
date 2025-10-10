@@ -1,3 +1,3 @@
 ## Small side project
 
-Just a repository with small project for improve my skills in html and js native.
+Just a repository with small project for improve my skills in web.
